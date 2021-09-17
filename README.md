@@ -1,4 +1,4 @@
-# HybirdModel
+# HybridModel
 
 Code and behavioural data for:
 
