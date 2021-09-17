@@ -31,4 +31,6 @@ The model described as Esser et al. (2021)
 Esser, R., Korn, C. W., Ganzer, F., & Haaker, J. (2021). L-DOPA modulates activity in the vmPFC, nucleus accumbens, and VTA during threat extinction learning in humans. eLife, 10, e65280. https://doi.org/10.7554/eLife.65280
 
 
-Have fun :)
+
+
+**Have fun :)**
