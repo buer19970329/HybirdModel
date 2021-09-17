@@ -1,7 +1,7 @@
 # %%
 def HM_lik(data,ro,alpha,beta,w):
     import numpy as np
-
+    # 创建空数组储存接下来的数据
     eta = np.zeros(np.shape(data)[0]+1,dtype='float')    
     expProb = np.zeros_like(data,dtype='float')
     valueV = np.zeros_like(data,dtype='float')
@@ -22,7 +22,7 @@ def HM_lik(data,ro,alpha,beta,w):
         
         valueV[t] = v[data[t]]
         
-    _,*eta = eta
-    NegLL = -np.sum(np.log(expProb));
+    _,*eta = eta # 删除eta0
+    NegLL = -np.sum(np.log(expProb)); # Negative Log Likelihood
     eta = np.array(eta)
     return NegLL
