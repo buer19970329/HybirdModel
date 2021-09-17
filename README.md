@@ -20,7 +20,7 @@ Lockwood, P. L., & Klein-Flügge, M. C. (2021). Computational modelling of socia
 
 # 2. Rescorla-Wagner-Pearce-Hall-Hybrid model (HM)
 ```
-The model used in (Esser et al., 2021)
+The model described as Esser et al. (2021)
 ```
 * Matlab scripts: [HM_lik.m](HM/matlab/HM_lik.m) → [HM_fit.m](HM/matlab/HM_fit.m)
 * Python scripts (highly recommended): [HM_lik.py](HM/HM_lik.py) → [HM_fit.py](HM/HM_fit.py)
