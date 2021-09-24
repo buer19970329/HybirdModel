@@ -1,8 +1,6 @@
 # HybridModel
 
-____9.21 发现了一个问题，修改后会重新上传____
 
------
 
 Code and behavioural data for:
 
