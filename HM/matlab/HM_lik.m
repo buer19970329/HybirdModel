@@ -1,8 +1,8 @@
-function NegLL = HM_lik(a, ro, alpha, beta,w)
+function NegLL = HM_lik(a,resp, ro, alpha, beta,w)
 
 % modify =============================================
 % v0 starting point (75% probability for a US following a CS+ in the acquisition phase)
-v = [0.75 0.25];
+v = [0.75 0];
 % eta0: the associability of the preceding trial
 eta = 1;
 % modify end =========================================
@@ -31,4 +31,4 @@ end
 
 eta(1) = [];
 % compute negative log-likelihood
-NegLL = -sum(log(expProb));
+NegLL = -sum(resp* log(expProb));
